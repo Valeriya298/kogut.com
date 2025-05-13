@@ -2,4 +2,19 @@ nav a.active {
     font-weight: bold;
     color: #f00;
 }
+/* Адаптивность */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    /* Пример */
+    .contact-form {
+        width: 100%;
+    }
+}
 
